@@ -1,0 +1,75 @@
+section{padding: 10px 50px;}
+.header{background-image: url("../images/home-banner.jpg");background-position: center;background-size: cover;background-repeat: no-repeat;}
+.header.header_about{background-image: url("../images/about_us_banner.jpg");background-position: center;height:400px;background-size: cover;background-repeat: no-repeat;}
+.header.header_contact{background-image: url("../images/contactusbanner.jpg");background-position: center;height:500px;background-size: cover;background-repeat: no-repeat;}
+.header.header_bridal{background-image: url("../images/bridal_banner.jpg");background-position: center;height:500px;background-size: cover;background-repeat: no-repeat;}
+.header.header_bday{background-image: url("../images/bday_banner.jpg");background-position: center;height:500px;background-size: cover;background-repeat: no-repeat;}
+.header.header_portfolio{background-image: url("../images/personal_banner.jpg");background-position: center;height:500px;background-size: cover;background-repeat: no-repeat;}
+.header.header_prew{background-image: url("../images/pr_banner.jpg");background-position: center;height:500px;background-size: cover;background-repeat: no-repeat;}
+.header.header_ourServices{background-image: url("../images/our_services.jpg");background-position: center;height:500px;background-size: cover;background-repeat: no-repeat;}
+.header.header_blogs{background-image: url("../images/blog.jpg");background-position: center;height:500px;background-size: cover;background-repeat: no-repeat;}
+
+
+.t-center{text-align:center;}
+.inline-flex{   display: flex;    column-gap: 30px;
+justify-content: space-between;
+align-items: center; /* Centers items vertically in the row */}
+.menu-bar li a{    color: #fff;text-decoration: none;
+    padding: 5px 8px;
+    font-size: 22px;}
+    .menu-bar li a:hover{background-color: #ffd20a;
+        border-radius: 3px;
+        color: #000;cursor: pointer;}  
+.ptb-50{padding: 50px auto;}
+h2{font-size:40px;font-weight: 700;}
+.header .container{padding:100px 0px;}
+.header h1{font-size:40px;font-weight: 700;color:#fff;}
+.header h2{font-size:40px;font-weight: 700;color:#fff;}
+.header h3{font-size:40px;font-weight: 700;color:#ffffff;}
+.mb-50{margin-bottom: 50px;;}
+.menu-bar ul{
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+}
+p{font-size: 18px;
+    line-height: 1.3;}
+.w-50{width: 50%;}
+.w-23{width:23%;margin:auto;}
+a.btn{background-color: #ffd20a;color:#000;font-size: 18px;font-weight: bold;display: block;border-radius: 10px;
+width:fit-content;padding:10px 20px;text-decoration: none;}
+.dark h4, .dark p, .dark p a{color:#fff;text-decoration: none;}
+.dark h4{font-size:24px;}
+footer .w-23{margin-top:0px !important;}
+footer .last{height: 280px;}
+footer .social img{margin-right:20px;}
+.contact {font-size:20px}
+.contact .w-23{border-right: 2px dashed}
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #9c3a4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #7a2c3a;
+  }
